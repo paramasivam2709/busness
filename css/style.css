@@ -7121,3 +7121,69 @@ div#portfolio-three-slider-ow {
     display: none;
   }
 }
+
+
+/* ==========================
+   FULL WEBSITE OVERFLOW FIX
+   ========================== */
+
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
+
+/* Fix Global Container Padding */
+@media (max-width: 992px) {
+  .container {
+    padding: 40px 20px !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Fix Section Overflow */
+section, div {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Fix image overflow */
+img, video, svg {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Fix Hero Slider Navigation Overflow */
+@media (max-width: 768px) {
+  .hero--one .tns-nav {
+    right: 20px !important;
+  }
+
+  .hero--one .hero__content {
+    margin-right: 0 !important;
+  }
+}
+
+/* Fix service grid expanding too wide */
+@media (max-width: 768px) {
+  .services__grid {
+    display: block !important;
+  }
+
+  .services__item {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+}
+
+/* Fix About grid overflow */
+@media (max-width: 768px) {
+  .about__content {
+    display: block !important;
+  }
+}
+
+/* Fix header menu overflow */
+.main-menu {
+  width: 100% !important;
+  max-width: 100% !important;
+}
