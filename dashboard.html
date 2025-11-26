@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard – Stackly</title>
+
+  <!-- Existing CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/tiny-slider.css">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header header--style-one">
+    <div class="header__container container">
+      <div class="header__wrap">
+
+        <div class="header__logo-wrap">
+          <a href="index.html" class="logo__link">
+            <img src="./img/logo/logo-3.png" class="logo" alt="">
+          </a>
+        </div>
+
+        <nav class="main-menu">
+          <div class="menu-close"><span class="close"></span></div>
+          <ul class="main-menu__nav">
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item"><a href="services.html">Services</a></li>
+            <li class="item"><a href="contact.html">Contact</a></li>
+            <li class="item item__active"><a href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__right d-flex align-items-center gap-4">
+          <div class="header__btn-wrap">
+            <a class="header__btn btn-secondary" href="contact.html">
+              <span class="header__btn-text">Support</span>
+            </a>
+          </div>
+          <div class="menu-open"><span class="open"></span></div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Dashboard Section -->
+    <section class="services service--one" style="padding-top:160px;">
+      <div class="services__container container">
+
+        <h2 class="services__title title-xl">Your Dashboard</h2>
+        <p class="text-desc">Quick overview of your activity, reports and status.</p>
+
+        <div class="services__grid d-flex flex-wrap justify-content-between">
+
+          <!-- Card 1 -->
+          <div class="services__item">
+            <div class="services__item-top">
+              <div class="services__item-icon-wrap">
+                <i class="fa-solid fa-chart-line" style="font-size:40px;color:white;"></i>
+                <a class="service__readmore-icon">
+                  <i class="fa-solid fa-plus"></i>
+                  <span class="service__readmore-text">More Details</span>
+                </a>
+              </div>
+              <h2 class="services__item-title">Performance</h2>
+            </div>
+
+            <div class="services__item-bottom">
+              <p class="services__item-desc">Check your growth and insights.</p>
+            </div>
+
+            <div class="services__flip">
+              <h2 class="services__item-title">Performance Overview</h2>
+              <p class="services__item-desc">Track your analytics and improvement metrics.</p>
+            </div>
+
+            <div class="services__item-bg" data-bg-img="./img/services/services-bg-1.jpg"></div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="services__item">
+            <div class="services__item-top">
+              <div class="services__item-icon-wrap">
+                <i class="fa-solid fa-user" style="font-size:40px;color:white;"></i>
+                <a class="service__readmore-icon">
+                  <i class="fa-solid fa-plus"></i>
+                  <span class="service__readmore-text">More Details</span>
+                </a>
+              </div>
+              <h2 class="services__item-title">Profile</h2>
+            </div>
+
+            <div class="services__item-bottom">
+              <p class="services__item-desc">Manage your personal information.</p>
+            </div>
+
+            <div class="services__flip">
+              <h2 class="services__item-title">Profile Settings</h2>
+              <p class="services__item-desc">Update email, phone, address and account preferences.</p>
+            </div>
+
+            <div class="services__item-bg" data-bg-img="./img/services/services-bg-2.jpg"></div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="services__item">
+            <div class="services__item-top">
+              <div class="services__item-icon-wrap">
+                <i class="fa-solid fa-file-invoice" style="font-size:40px;color:white;"></i>
+                <a class="service__readmore-icon">
+                  <i class="fa-solid fa-plus"></i>
+                  <span class="service__readmore-text">More Details</span>
+                </a>
+              </div>
+              <h2 class="services__item-title">Reports</h2>
+            </div>
+
+            <div class="services__item-bottom">
+              <p class="services__item-desc">View monthly activity reports.</p>
+            </div>
+
+            <div class="services__flip">
+              <h2 class="services__item-title">Reports Summary</h2>
+              <p class="services__item-desc">Download and view all your performance reports.</p>
+            </div>
+
+            <div class="services__item-bg" data-bg-img="./img/services/services-bg-3.jpg"></div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/tiny-slider.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

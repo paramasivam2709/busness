@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forgot Password</title>
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <style>
+    body {
+      background: var(--clr-base-dark);
+      color: white;
+    }
+
+    .form-container {
+      max-width: 450px;
+      margin: 120px auto;
+      background: #182120;
+      padding: 30px;
+      border-radius: 20px;
+    }
+
+    .form-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: var(--clr-lime-green);
+    }
+
+    .btn-primary-custom {
+      width: 100%;
+      padding: 12px;
+      border-radius: 40px;
+      background: var(--clr-deep-green);
+      color: white;
+      border: none;
+      font-weight: 600;
+    }
+
+    .btn-primary-custom:hover {
+      background: var(--clr-lime-green);
+      color: black;
+    }
+
+    .alert {
+      padding: 10px;
+      background: #ff5252;
+      color: white;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      display: none;
+    }
+
+    .links {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .links a {
+      color: var(--clr-lime-green);
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="form-container">
+    <h2 class="form-title">Forgot Password</h2>
+
+    <div class="alert" id="alertBox">Email is required!</div>
+
+    <form onsubmit="return validateForgot()">
+      <label>Email:</label>
+      <input type="email" id="email" class="form-control mb-3">
+
+      <button class="btn-primary-custom">Reset Password</button>
+    </form>
+
+    <div class="links">
+      <p><a href="login.html">Back to Login</a></p>
+    </div>
+  </div>
+
+  <script>
+    function validateForgot() {
+      let email = document.getElementById("email").value;
+      let alertBox = document.getElementById("alertBox");
+
+      if (email === "") {
+        alertBox.style.display = "block";
+        return false;
+      }
+      window.location.href = "404.html";
+      return false;
+    }
+  </script>
+
+</body>
+
+</html>
