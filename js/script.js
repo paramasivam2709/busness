@@ -232,19 +232,19 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "From the first consultation, I knew we were in capable hands. They handled our financial concerns with care and helped reduce unnecessary costs effectively. Their transparent communication, deep expertise, and consistent follow-through made the entire experience seamless, empowering our business with renewed financial confidence.",
       author: "David K.",
       title: "Managing Director",
-      imageUrl: "./img/testimonials/testimonials-1.png",
+      imageUrl: "./img/testimonials/testimonials-1.webp",
     },
     {
       text: "Elevix transformed our marketing strategy with smart, data-driven insights. Their approach boosted our engagement, conversions, and overall brand performance quickly and efficiently. We saw measurable improvements across campaigns, channels, and long-term brand positioning, along with invaluable support that made implementation faster and results-driven.",
       author: "Sarah L.",
       title: "Marketing Lead",
-      imageUrl: "./img/testimonials/testimonials-2.png",
+      imageUrl: "./img/testimonials/testimonials-2.webp",
     },
     {
       text: "Elevix delivered a solid, user-friendly software solution on time. Their attention to detail, reliability, and support exceeded our expectations throughout the development process. They provided regular updates, handled challenges with ease, and ensured that the final product aligned perfectly with our goals and vision.",
       author: "Michael B.",
       title: "CTO",
-      imageUrl: "./img/testimonials/testimonials-3.png",
+      imageUrl: "./img/testimonials/testimonials-3.webp",
     },
   ];
 
@@ -416,19 +416,19 @@ document.addEventListener("DOMContentLoaded", function () {
       text: "From the first consultation, I knew we were in capable hands. They handled our financial concerns with care and helped reduce unnecessary costs effectively. Their transparent communication, deep expertise, and consistent follow-through made the entire experience seamless, empowering our business with renewed financial confidence.",
       author: "David K.",
       title: "Managing Director",
-      imageUrl: "./img/testimonials/testimonials-1.png",
+      imageUrl: "./img/testimonials/testimonials-1.webp",
     },
     {
       text: "Elevix transformed our marketing strategy with smart, data-driven insights. Their approach boosted our engagement, conversions, and overall brand performance quickly and efficiently. We saw measurable improvements across campaigns, channels, and long-term brand positioning, along with invaluable support that made implementation faster and results-driven.",
       author: "Sarah L.",
       title: "Marketing Lead",
-      imageUrl: "./img/testimonials/testimonials-2.png",
+      imageUrl: "./img/testimonials/testimonials-2.webp",
     },
     {
       text: "Elevix delivered a solid, user-friendly software solution on time. Their attention to detail, reliability, and support exceeded our expectations throughout the development process. They provided regular updates, handled challenges with ease, and ensured that the final product aligned perfectly with our goals and vision.",
       author: "Michael B.",
       title: "CTO",
-      imageUrl: "./img/testimonials/testimonials-3.png",
+      imageUrl: "./img/testimonials/testimonials-3.webp",
     },
   ];
 
@@ -514,8 +514,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const teamMembers = [
     {
       id: 'leslie',
-      image: './img/team/team-member-1.png',
-      thumbnail: './img/team/team-member-1.png',
+      image: './img/team/team-member-1.webp',
+      thumbnail: './img/team/team-member-1.webp',
       name: 'Leslie Alexander',
       role: 'Graphics Designer',
       social: {
@@ -527,8 +527,8 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 'john',
-      image: './img/team/team-member-2.png',
-      thumbnail: './img/team/team-member-2.png',
+      image: './img/team/team-member-2.webp',
+      thumbnail: './img/team/team-member-2.webp',
       name: 'John Doe',
       role: 'Web Developer',
       social: {
@@ -540,8 +540,8 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 'jane',
-      image: './img/team/team-member-3.png',
-      thumbnail: './img/team/team-member-3.png',
+      image: './img/team/team-member-3.webp',
+      thumbnail: './img/team/team-member-3.webp',
       name: 'Jane Smith',
       role: 'UX Designer',
       social: {
@@ -553,8 +553,8 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       id: 'peter',
-      image: './img/team/team-member-4.png',
-      thumbnail: './img/team/team-member-4.png',
+      image: './img/team/team-member-4.webp',
+      thumbnail: './img/team/team-member-4.webp',
       name: 'Peter Jones',
       role: 'Project Manager',
       social: {
