@@ -80,6 +80,9 @@ CSS INDEX
 * {
   margin: 0;
 }
+html, body {
+    overflow-x: hidden !important;
+}
 
 body {
   line-height: 1.5;
@@ -7122,5 +7125,50 @@ div#portfolio-three-slider-ow {
   }
 }
 
+/* Show login button only inside mobile menu */
+.mobile-login-btn {
+  display: none;
+}
 
+@media (max-width: 768px) {
+  .mobile-login-btn {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .btn-mobile-login {
+    display: block;
+    padding: 12px 20px;
+    background: var(--clr-deep-green);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .btn-mobile-login i {
+    margin-right: 8px;
+  }
+
+  /* Hide desktop login button */
+  .header__btn-wrap {
+    display: none !important;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px !important;
+    }
+
+    .header__container.container,
+    .hero__container.container,
+    .about__container.container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
 
